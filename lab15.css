@@ -1,0 +1,108 @@
+
+
+table{
+	width: 100%;
+	border-spacing: 10px;
+}
+#header{
+	background-color: rgb(31, 17, 61);
+	width: 600px;
+	height: 200px;
+	border-radius: 20px
+}
+.bigtext{
+	font-size: 60px;
+	color: white;
+}
+#topmenu{
+
+}
+#topmenu>li{
+	display: inline-block;
+	padding-top: 20px;
+	padding-right: 35px;
+	color: white;
+}
+#topmenu>li>ul{
+	position: absolute;
+	display: none;
+	list-style: none;
+	color: black;
+}
+#topmenu>li:hover ul{
+	display: block;
+	padding: 30px;
+	color: black;
+	background-color: white;
+}
+#topmenu>li:hover{
+	background-color: rgb(31, 17, 61);
+}
+.container{
+	background-color: black;
+	width: 100%;
+	overflow: hidden;
+}
+#topmenu>li>a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: Tahoma;
+}
+#topmenu>li>ul>li>a{
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	font-size: 30px;
+	text-align: center;
+}
+.slogan{
+	font-size: 20px;
+	color: white;
+}
+.container{
+	display: flex;
+	font-size: 20px;
+	padding-right: 50px;
+}
+.container>div{
+	padding-right: 30px;
+}
+.navtext{
+	font-size: 20px;
+	padding-right: 40px;
+	
+}
+#firstsidebar{
+	background-color: black;
+	white-space: normal;
+	width: 300px;
+	height: 300px;
+}
+.main{
+	background-color: rgb(31, 17, 61);
+	color: white;
+	font-size: 40px;
+	text-transform: uppercase;
+	height: 90px;
+	padding-left: 20px;
+}
+.subtext{
+	font-size: 20px;
+}
+#secondsidebar{
+	background-color: black;
+	height: 150px;
+	color: white;
+}
+td{
+	font-size: 20px;
+}
+.footertext{
+	background-color: grey;
+	text-align: right;
+	height: 30px;
+	font-size: 20px;
+	padding-top: 7px;
+}
